@@ -1,29 +1,32 @@
 
 body{
     min-width: 400px;
-    background-image: linear-gradient(to right,   #000000,#727168, #000000);
+    background-image: linear-gradient(to right,  #eef2f3, #a7b2bb );
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.image{
+.image1{
    
     max-width: 8rem;
     border-radius: 50px;
     padding: 10px;
+}
+ 
+.image2{
+    width: 500PX;
+    height: 300px;
+    border-radius: 35px;
+    font-size: 100px;
+    
 }
 
 .imagens{
     display: flex;
     justify-content: center;
 }
-
-.poligono{
- display: flex;
- justify-content: center; 
-
- max-width: 100rem;
- border-radius: 50px;
  
+.lista{
+    font-size: large;;
 }
 
 h1{
@@ -53,7 +56,7 @@ text-align: center;
 }
 
 main{
-    background: #f7efe7;
+    background: #f7810b;
     color: rgb(0, 0, 0);
     border-radius: 10px;
 }
@@ -86,7 +89,8 @@ header{
  }
 
  @media (min-width: 1000px) {
-    .image {
+    .image1 {
         max-width: 25rem;
     }
  }
+
