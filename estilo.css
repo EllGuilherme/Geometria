@@ -1,7 +1,7 @@
 
 body{
     min-width: 400px;
-    background-image: linear-gradient(to right,  #eef2f3, #a7b2bb );
+    background-image: linear-gradient(45deg, #9E9FC8 0%, #9fa5f8 100%);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -30,21 +30,23 @@ body{
 }
 
 h1{
-color: beige;
+color:#884413;
 text-align: center;
+font-size: 35px;
 }
 
 h2{
+color: #241307 ;
 margin-left: 10px;;
 text-align: center;
-color: #21690f;
 text-align: center;
-
+font-size: 30px ;
 }
 
 h3{
-color: beige;
+color: #884413;
 text-align: center;
+font-size: large;
 }
 
 h4{
@@ -55,13 +57,9 @@ p{
 text-align: center;
 }
 
-main{
-    background: #f7810b;
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
-}
+
 header{
-    background-color: #24880b;
+    background-color: #747cf02f;
     border-width: 10px; 
     border-radius: 10px;
 }
@@ -73,10 +71,7 @@ header{
     height: 60px; 
     text-align: center;
 }
- .color1{
-    color: #204f0a;
-    font-size: 30px;
- }
+
 
  .color2{
   color: #0443ca;
