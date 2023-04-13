@@ -1,7 +1,7 @@
 
 body{
     min-width: 400px;
-    background-image: linear-gradient(45deg, #9E9FC8 0%, #9fa5f8 100%);
+    background-image: linear-gradient(45deg, #8a8bc4 0%, #d3d5fc88 100%);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -9,7 +9,8 @@ body{
    
     max-width: 8rem;
     border-radius: 50px;
-    padding: 10px;
+    padding: 5px;
+    border-style:ridge;
 }
  
 .image2{
@@ -23,6 +24,7 @@ body{
 .imagens{
     display: flex;
     justify-content: center;
+
 }
  
 .lista{
@@ -57,9 +59,15 @@ p{
 text-align: center;
 }
 
+.subtitulo{
+    font-size: 30px;
+    color:#241307;
+    margin-left: 150px;
+    margin-top: 30px;
+}
 
 header{
-    background-color: #747cf02f;
+    background-color: hsla(236, 80%, 70%, 0.185);
     border-width: 10px; 
     border-radius: 10px;
 }
