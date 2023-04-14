@@ -8,16 +8,18 @@ body{
 .image1{
    
     max-width: 8rem;
-    border-radius: 50px;
-    padding: 5px;
-    border-style:ridge;
+    border-radius: 35px;
+    border: 1px solid #333; box-shadow: 10 10 5px 3px black;
+    border-width: 2px;
+    
 }
  
 .image2{
-    width: 500PX;
+    width: 400PX;
     height: 300px;
     border-radius: 35px;
     font-size: 100px;
+    border: 1px solid #333; box-shadow: 10 10 5px 3px black;
     
 }
 
@@ -62,8 +64,8 @@ text-align: center;
 .subtitulo{
     font-size: 30px;
     color:#241307;
-    margin-left: 150px;
-    margin-top: 30px;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 header{
