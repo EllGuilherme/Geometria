@@ -19,8 +19,15 @@ body{
     height: 300px;
     border-radius: 35px;
     font-size: 100px;
-    border: 1px solid #333; box-shadow: 10 10 5px 3px black;
-    
+    border: 1px solid #333; box-shadow: 0 0 4px 2px rgb(39, 38, 38);
+}
+
+.image3{
+    width: 400PX;
+    height: 300px;
+    border-radius: 35px;
+    font-size: 100px;
+    border: 1px solid #474747; box-shadow: 0 0 4px 2px rgb(219, 219, 219);
 }
 
 .imagens{
@@ -30,13 +37,20 @@ body{
 }
  
 .lista{
-    font-size: large;;
+    font-size: large;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.lista2{
+    padding: 10px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 h1{
-color:#884413;
+color:#0441e7;
 text-align: center;
 font-size: 35px;
+font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 h2{
@@ -45,12 +59,14 @@ margin-left: 10px;;
 text-align: center;
 text-align: center;
 font-size: 30px ;
+font-family: 'Times New Roman', Times, serif;
 }
 
 h3{
-color: #884413;
+color: #0441e7;
 text-align: center;
-font-size: large;
+font-size:larger;
+font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 h4{
@@ -59,6 +75,8 @@ h4{
 
 p{
 text-align: center;
+font-family: Georgia, 'Times New Roman';
+font-size: 20px;
 }
 
 .subtitulo{
@@ -76,7 +94,7 @@ header{
 
 .link{
     border-width: 8px; 
-    font-size: 12px;
+    font-size: 20px;
     font-variant-position: center;
     height: 60px; 
     text-align: center;
