@@ -1,0 +1,24 @@
+body{
+    min-width: 400px;
+    background-image: linear-gradient(45deg, #7f81d6 0%, #494eb9b6 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    
+}
+
+.image3{
+    width: 400PX;
+    height: 300px;
+    border-radius: 35px;
+    font-size: 100px;
+    border: 1px solid #474747; box-shadow: 10 0 4px 2px #6466f0(219, 219, 219);
+}
+
+h1{
+    text-align: center;
+}
+header{
+    background-color: hsla(236, 83%, 65%, 0.185);
+    border-width: 10px; 
+    border-radius: 10px;
+  
+}
